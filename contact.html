@@ -3,11 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nos Valeurs</title>
+    <title>Contactez-nous</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.cdnfonts.com/css/golden-beach-personal-use" rel="stylesheet">
 </head>
+<style>
+    .font-montserrat-700 {
+    font-family: 'Golden Beach Personal Use', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  </style>
 <body>
     <div  class="max-sm:hidden relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-800 px-6 py-3.5 sm:px-2.5 sm:before:flex-1 ">
         <div class="absolute left-[max(-7rem,calc(50%-52rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl " aria-hidden="true">
@@ -46,7 +53,7 @@
     </div>
     
 
-<nav class="bg-white border-gray-200 dark:bg-gray-900 ">
+<nav class="bg-white border-gray-200 dark:bg-gray-900">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
   <a href="https://stit.com/" class="flex items-center">
       <img src="assets/logo.svg" class="h-16 mr-3"alt="Logo" />
@@ -107,48 +114,59 @@
   </div>
 </nav>
 <main>
-    <div class="justify-center flex text-center p-16">
-        <div>
-         <h1 class="font-bold mb-4 text-[44px] max-sm:text-xl font-mono">Création, Innovation, Savoir-faire et Qualité</h1>
-         <p class="text-gray-500 text-center w-[700px] max-sm:w-[320px] max-sm:text-xs text-xl font-mono lg:ml-48">
-            La Création, l'Innovation, le Savoir-faire et la Qualité sont les piliers qui animent et guident les équipes de STIT depuis plus de 6 ans. Ces valeurs fondamentales sont la boussole de notre entreprise, nous permettant de briller dans l'univers complexe de la conception et de la fabrication des tapis.
-         </p>
-        </div>
-       </div>
-       <!--  -->
-       
-<div class="grid mb-8 rounded-lg shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-2 lg:mx-36 gap-4 max-sm:mx-8">
-    <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-2 border-gray-500 rounded-b-lg md:rounded-br-lg  ">
-        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-900 lg:text-xl">
-            <h1 class="text-lg font-mono text-gray-900 dark:text-gray-900 lg:text-2xl pt-8">La Qualité</h1>
-            <p class="my-4">La Qualité est notre norme non négociable. Chaque tapis qui porte le nom de STIT est synonyme de durabilité, de beauté et de satisfaction. Nous mettons en place des processus rigoureux pour nous assurer que chaque tapis est un gage de qualité, répondant aux attentes les plus élevées de nos clients.</p>
-        </blockquote>
-        
-    </figure>
-    <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-2 border-gray-500 rounded-b-lg md:rounded-br-lg  ">
-        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-900 lg:text-xl ">
-            <h1 class="text-lg font-mono text-gray-900 dark:text-gray-900 lg:text-2xl">La Création</h1>
-            <p class="my-4">La Création est l'étincelle qui allume notre imagination. C'est la source de nos idées novatrices, la force motrice derrière chaque nouveau design de tapis. Nous croyons en la puissance de la créativité pour donner naissance à des œuvres uniques qui captivent l'œil et l'âme.</p>
-        </blockquote>
-         
-    </figure>
-    <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-2 border-gray-500 rounded-b-lg md:rounded-br-lg  ">
-        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-900 lg:text-xl">
-            <h1 class="text-lg font-mono text-gray-900 dark:text-gray-900 lg:text-2xl pt-8">L'Innovation</h1>
-            <p class="my-4">L'Innovation est notre outil pour rester à la pointe de l'industrie. Nous cherchons constamment de nouvelles techniques, de nouveaux matériaux et de nouvelles approches pour repousser les limites de ce qui est possible. Notre engagement envers l'innovation nous pousse à développer des tapis qui non seulement embellissent les espaces, mais qui répondent également aux besoins changeants de nos clients.</p>
-        </blockquote>
-           
-    </figure>
-    <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-2 border-gray-500 rounded-b-lg md:rounded-br-lg ">
-        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-900 lg:text-xl">
-            <h1 class="text-lg font-mono text-gray-900 dark:text-gray-900 lg:text-2xl">Le Savoir-faire</h1>
-            <p class="my-4">Le Savoir-faire est notre héritage, notre trésor transmis de génération en génération. Les compétences artisanales, l'expertise technique et l'attention aux détails font partie intégrante de chaque tapis que nous créons. Nous respectons les traditions tout en embrassant la modernité, garantissant ainsi que chaque tapis est une œuvre d'art en soi.</p>
-        </blockquote>
-    </figure>
-</div>
-
-</main>
+    <!-- banner -->
     
+    <div id="default-carousel" class="relative w-full" data-carousel="slide">
+        <!-- Carousel wrapper -->
+        <div class="relative  overflow-hidden rounded-lg lg:h-[500px] max-sm:h-56">
+      
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="assets/Contactez-nous.jpg" class="absolute block  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 inset-0 w-full h-full object-cover object-center" alt="...">
+          </div>
+            <!-- Item 3 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="assets/loca.jpg" class="absolute block  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 inset-0 w-full h-full object-cover object-center" alt="...">
+              <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-top drop-shadow-2xl">
+                <p class="font-montserrat-700 lg:text-[150px] max-sm:text-[42px] text-bottom mt-20 text-left">Localisation</p>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    <!-- end banner -->
+    <div class="grid grid-cols-2 max-sm:block">
+    <section class="bg-white">
+        <div class="py-8 lg:py-8 px-4 mx-auto max-w-screen-md border-2 border-gray-900 lg:px-12 my-12 max-sm:mx-4 rounded-lg dark:bg-gray-100">
+            <h2 class="mb-4 text-4xl tracking-tight font-mono text-center text-gray-900 dark:text-gray-900 lg:mb-12">Contactez-nous</h2>
+            <p class="mb-8 lg:mb-16 font-mono text-center text-gray-800 dark:text-gray-800 sm:text-xl">Vous rencontrez un problème ? Vous souhaitez nous envoyer des commentaires ? Besoin d'informations sur notre plan Business ? Faites-le nous savoir.</p>
+            <form action="#" class="space-y-8">
+                <div>
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-800">Email</label>
+                    <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@gmail.com" required>
+                </div>
+                <div>
+                    <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-800">N°Téléphone</label>
+                    <input type="text" id="phone" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="(999) 99 999 999" required>
+                </div>
+                <div>
+                    <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-800">Sujet</label>
+                    <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Dites-nous comment nous pouvons vous aider." required>
+                </div>
+                <div class="sm:col-span-2">
+                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-800">Message</label>
+                    <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Laisser un commentaire..."></textarea>
+                </div>
+                <button type="submit" class="py-3 px-5 text-sm font-medium text-center border border-gray-900 text-gray-900 rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+            </form>
+        </div>
+      </section>
+      
+      <section class="bg-white lg:px-12">
+        <div class="py-8 lg:py-8 px-4 mx-auto max-w-screen-xl border-2 border-gray-900 lg:px-12 my-12 max-sm:mx-4 rounded-lg dark:bg-gray-100">
+            <h2 class="mb-4 text-4xl tracking-tight font-mono text-center text-gray-900 dark:text-gray-900 lg:mb-12">Localisation</h2>
+            <iframe class="w-[750px] h-[707px] max-sm:w-[320px]"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12963.526154610132!2d10.311679870501042!3d35.679918761399954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fde9a8593f515d%3A0xd77850bb8dac0995!2sStit%2C%20Zone%20industrielle%2C%20Sidi%20El%20H%C3%A9ni%204025!5e0!3m2!1sen!2stn!4v1698399064952!5m2!1sen!2stn"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      </section>
+    </div>
+</main>
 <footer class="bg-white dark:bg-gray-900">
   
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
@@ -293,5 +311,6 @@
             });
           }
         </script>
+    
 </body>
 </html>
