@@ -36,7 +36,7 @@
 <p>Special thanks to the Laravel and Tailwind CSS communities for their invaluable contributions and support in developing this project.</p>
 
 <h2>Contact Information:</h2>
-<p>For any inquiries or feedback regarding the project, please contact [insert your contact information here].</p>
+<p>For any inquiries or feedback regarding the project, please contact medmoezchallouf@gmail.com.</p>
    
 <h2>Author:</h2>
 <p>[Moez] - [Web Developer] - medmoezchallouf@gmail.com</p>
